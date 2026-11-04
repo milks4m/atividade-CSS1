@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Atividade 8 - Bandeiras com CSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        .menu {
+            margin-bottom: 30px;
+        }
+        .menu a {
+            margin: 0 10px;
+            font-weight: bold;
+            color: blue;
+        }
+
+        .bandeira {
+            width: 300px;
+            height: 200px;
+            margin: 20px auto;
+            position: relative;
+            border: 1px solid #999;
+            background-color: white;
+            overflow: hidden;
+        }
+
+        #japao > div.circulo {
+            width: 80px;
+            height: 80px;
+            background-color: red;
+            border-radius: 50%;
+            position: absolute;
+            top: 60px;
+            left: 110px;
+        }
+
+        #alemanha > div.faixa-preta {
+            width: 100%;
+            height: 66px;
+            background-color: black;
+            position: absolute;
+            top: 0;
+        }
+        #alemanha > div.faixa-vermelha {
+            width: 100%;
+            height: 66px;
+            background-color: red;
+            position: absolute;
+            top: 66px;
+        }
+        #alemanha > div.faixa-amarela {
+            width: 100%;
+            height: 68px;
+            background-color: gold;
+            position: absolute;
+            top: 132px;
+        }
+
+        #holanda > div.faixa-vermelha {
+            width: 100%;
+            height: 66px;
+            background-color: firebrick;
+            position: absolute;
+            top: 0;
+        }
+        #holanda > div.faixa-branca {
+            width: 100%;
+            height: 66px;
+            background-color: white;
+            position: absolute;
+            top: 66px;
+        }
+        #holanda > div.faixa-azul {
+            width: 100%;
+            height: 68px;
+            background-color: navy;
+            position: absolute;
+            top: 132px;
+        }
+
+        #italia > div.faixa-verde {
+            width: 100px;
+            height: 200px;
+            background-color: green;
+            position: absolute;
+            left: 0;
+        }
+        #italia > div.faixa-branca {
+            width: 100px;
+            height: 200px;
+            background-color: white;
+            position: absolute;
+            left: 100px;
+        }
+        #italia > div.faixa-vermelha {
+            width: 100px;
+            height: 200px;
+            background-color: red;
+            position: absolute;
+            left: 200px;
+        }
+
+        #brasil {
+            background-color: green;
+        }
+        #brasil > div.losango-amarelo {
+            width: 150px;
+            height: 150px;
+            background-color: yellow;
+            position: absolute;
+            top: 25px;
+            left: 75px;
+            transform: rotate(45deg);
+        }
+        #brasil > div.circulo-azul {
+            width: 80px;
+            height: 80px;
+            background-color: blue;
+            border-radius: 50%;
+            position: absolute;
+            top: 60px;
+            left: 110px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Bandeiras com CSS</h1>
+
+    <div class="menu">
+        <a href="#japao">Bandeira Japão</a>
+        <a href="#alemanha">Bandeira Alemanha</a>
+        <a href="#holanda">Bandeira Holanda</a>
+        <a href="#italia">Bandeira Itália</a>
+        <a href="#brasil">Bandeira Brasil</a>
+    </div>
+
+    <h3>Japão</h3>
+    <div class="bandeira" id="japao">
+        <div class="circulo"></div>
+    </div>
+
+    <h3>Alemanha</h3>
+    <div class="bandeira" id="alemanha">
+        <div class="faixa-preta"></div>
+        <div class="faixa-vermelha"></div>
+        <div class="faixa-amarela"></div>
+    </div>
+
+    <h3>Holanda</h3>
+    <div class="bandeira" id="holanda">
+        <div class="faixa-vermelha"></div>
+        <div class="faixa-branca"></div>
+        <div class="faixa-azul"></div>
+    </div>
+
+    <h3>Itália</h3>
+    <div class="bandeira" id="italia">
+        <div class="faixa-verde"></div>
+        <div class="faixa-branca"></div>
+        <div class="faixa-vermelha"></div>
+    </div>
+
+    <h3>Brasil</h3>
+    <div class="bandeira" id="brasil">
+        <div class="losango-amarelo"></div>
+        <div class="circulo-azul"></div>
+    </div>
+
+</body>
+</html>

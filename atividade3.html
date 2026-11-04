@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>INCLUINDO CSS EM DOCUMENTOS HTML</h1>
+
+    <h3>CSS externo</h3>
+    <p>
+        <strong>Como funciona:</strong> O código CSS fica guardado num ficheiro separado com a extensão
+        .css e é ligado ao documento HTML através da tag <italic>link</italic> no cabeçalho.
+            <br>
+        <strong>Vantagem:</strong> É a forma mmais recomendada para projetos reais, pois permite estilizar
+        múltiplas páginas HTML usando apenas um ficheiro de estilos, facilitando a manutenção.
+    </p>
+
+    <h3>CSS interno</h3>
+    <p>
+        <strong>Como funciona:</strong> As regras CSS são colocadas diretamente no documento HTML dentro
+        da tag <italic>style</italic> no cabeçalho da página.
+            <br>
+        <strong>Vantagem:</strong> Útil quando uma única página HTML tem regras de estilo únicas que não
+        precisam de ser partilhadas com outros ficheiros.
+    </p>
+
+    <h3>CSS inline</h3>
+    <p>
+        <strong>Como funciona:</strong> Os estilos são aplicados diretamente no elemento HTML específico
+        utilizando o atributo <italic>style</italic>.
+            <br>
+        <strong>Vantagem/Desvantagem:</strong> Aplica-se apenas a esse elemento isolado. É geralmente desaconselhado
+        para grandes projetos porque mistura a estrutura (HTML) com o design (CSS), dificultando a manutenção.
+    </p>
+</body>
+</html>

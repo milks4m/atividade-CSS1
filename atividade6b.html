@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            width: 100%;
+        }
+        .box {
+            display: flex;
+            flex: 1;
+            height: 200px;
+            font-weight: bold;
+            align-items: center;
+            justify-content: center;
+        }
+        #b1 {
+            background-color: blue;
+        }
+        #b2 {
+            background-color: green;
+        }
+        #b3 {
+            background-color: red;
+        }
+        #b4 {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span class="box" id="b1">1</span>
+        <span class="box" id="b2">2</span>
+        <span class="box" id="b3">3</span>
+        <span class="box" id="b4">4</span>
+    </div>
+
+    <p>
+        A exibição da página comporta-se desta maneira através da aplicação do display:flex no container,
+        o qual distribui os elementos filhos lado a lado de forma a preencher integralmente a largura
+        total da linha (width: 100%). A utilização da propriedade flex:1 em conjunto com a altura fixa
+        assegura que cada caixa divida o espaço horizontal de maneira equitativa e se mantenha encostada
+        às demais, sem margens ou espaços vazios entre elas.
+    </p>
+</body>
+</html>

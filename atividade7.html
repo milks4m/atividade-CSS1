@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Atividade 7 - Chat</title>
+    <style>
+        .chat {
+            width: 400px;
+            border: 2px solid #ccc;
+            padding: 15px;
+            margin: 20px auto;
+            background-color: #f9f9f9;
+        }
+
+        .mensagem {
+            margin-bottom: 15px;
+            overflow: hidden;
+        }
+
+        .balao {
+            max-width: 70%;
+            padding: 10px;
+            border-radius: 8px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+        }
+
+        .esquerda {
+            float: left;
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+        }
+
+        .direita {
+            float: right;
+            background-color: #d1f7c4;
+        }
+
+        .caixa-envio {
+            margin-top: 20px;
+            border-top: 1px solid #ccc;
+            padding-top: 10px;
+        }
+
+        .caixa-envio input {
+            width: 75%;
+            padding: 8px;
+        }
+
+        .caixa-envio button {
+            width: 20%;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="chat">
+        <div class="mensagem">
+            <div class="balao esquerda">
+                <strong>Pedro Silva</strong><br>
+                Olá, tudo bem?
+            </div>
+        </div>
+
+        <div class="mensagem">
+            <div class="balao direita">
+                Estou bem sim, e você?
+            </div>
+        </div>
+
+        <div class="mensagem">
+            <div class="balao esquerda">
+                <strong>Pedro Silva</strong><br>
+                Vamos sair hoje? Sabe conversar e Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </div>
+        </div>
+
+        <div class="mensagem">
+            <div class="balao direita">
+                Criatura .....
+            </div>
+        </div>
+
+        <div class="caixa-envio">
+            <input type="text" placeholder="Digite sua mensagem">
+            <button>Enviar</button>
+        </div>
+    </div>
+
+</body>
+</html>
