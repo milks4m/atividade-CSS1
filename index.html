@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PPI I - Lista 2 - Menu de Atividades</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 650px;
+            background: #1e1e1e;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 1.7rem;
+            margin-bottom: 10px;
+            color: #f37021;
+        }
+
+        p {
+            color: #a0a0a0;
+            margin-bottom: 30px;
+            font-size: 0.95rem;
+        }
+
+        .menu {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            max-height: 400px;
+            overflow-y: auto;
+            padding-right: 5px;
+        }
+
+        .menu::-webkit-scrollbar {
+            width: 6px;
+        }
+        .menu::-webkit-scrollbar-thumb {
+            background-color: #444;
+            border-radius: 3px;
+        }
+
+        .menu-item {
+            display: block;
+            background-color: #2a2a2a;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 14px 20px;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            border-left: 5px solid #009be3;
+            text-align: left;
+        }
+
+        .menu-item:hover {
+            background-color: #333333;
+            transform: translateX(5px);
+            border-left-color: #f37021;
+            color: #f37021;
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 0.85rem;
+            color: #666666;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>PPI I - Lista 2 (Seletores e Positions)</h1>
+        <p>Selecione abaixo a atividade que deseja visualizar:</p>
+
+        <div class="menu">
+            <a href="atividade1.html" class="menu-item">Atividade 1: Regra CSS (Conceito e Exemplo)</a>
+            <a href="atividade2.html" class="menu-item">Atividade 2: Página com H1, Parágrafos e Span</a>
+            <a href="atividade3.html" class="menu-item">Atividade 3: Formas de inclusão de CSS em HTML</a>
+            <a href="atividade4.html" class="menu-item">Atividade 4: Especificidade de Seletores</a>
+            <a href="atividade6a.html" class="menu-item">Atividade 6a: Display e Positions (Exemplo A)</a>
+            <a href="atividade6b.html" class="menu-item">Atividade 6b: Display e Positions (Exemplo B)</a>
+            <a href="atividade6c.html" class="menu-item">Atividade 6c: Display e Positions (Exemplo C)</a>
+            <a href="atividade7.html" class="menu-item">Atividade 7: Chat com Float e Positions</a>
+            <a href="atividade8.html" class="menu-item">Atividade 8: Bandeiras com CSS Puro e Âncoras</a>
+            <a href="atividade9.html" class="menu-item">Atividade 9: Perfil / Currículo (Joana Barbosa)</a>
+            <a href="atividade10.html" class="menu-item">Atividade 10: Animação de Barquinho no Mar</a>
+        </div>
+
+        <footer>
+            Instituto Federal de Santa Catarina (IFSC) - ADS[span_3](start_span)[span_3](end_span)
+        </footer>
+    </div>
+
+</body>
+</html>
